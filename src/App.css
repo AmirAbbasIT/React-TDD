@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+body{
+  height: 100vh;
+  background-color: rgba(255, 178, 89, 0.651);
+}
+.pointer{
+  cursor: pointer;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

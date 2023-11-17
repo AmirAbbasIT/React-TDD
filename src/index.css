@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Navbar Styles */
+#navbar {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-around;
+}
+#navbar span{
+ cursor: pointer;
+}
+#navbar div{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+#navbar div *{
+  margin: 0px 10px;
 }
